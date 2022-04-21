@@ -39,5 +39,5 @@ from tensorflow import keras as K
 # from tensorflow.keras.layers import Dense, Activation, Flatten, concatenate, Input, Dropout, LSTM, Bidirectional,BatchNormalization,PReLU,ReLU,Reshape
 
 # Importing and reading oasis dataset
-longitudnal_data = pd.read_csv("../oasis_dataset/oasis_longitudnal.csv") 
+longitudnal_data = pd.read_csv("../oasis_dataset/oasis_longitudinal.csv") 
 crossSectional_data = pd.read_csv("../oasis_dataset/oasis_cross-sectional.csv") 
